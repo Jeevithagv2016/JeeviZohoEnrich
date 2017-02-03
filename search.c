@@ -3,18 +3,18 @@
 int main(void) {
 	int a[10];
 	int i,n,m;
-	scanf("%d",&n);
+	scanf("%d",&n); //getting no of elements in an array
 	for(i=0;i<n;i++)
 	{
-	    scanf("%d",&a[i]);
+	    scanf("%d",&a[i]); //getting the elements
 	}
 	scanf("%d",&m);
 	for(i=0;i<n;i++)
 	{
-	    if(a[i]==m)
+	    if(a[i]==m) //searching the element to be found
 	    {
 	        printf("%d",i);
-	        break;
+	        break; //unique element
 	    }
 	}
 	        
